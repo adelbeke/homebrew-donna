@@ -1,9 +1,9 @@
 cask "donna" do
   arch arm: "arm64"
 
-  version "2.2.0"
-  sha256 arm:   "4e1d68477ce3b975155d9ff29902dd660ccc4935b48c24efabce5c56f8e0845e",
-         intel: "002ba42f7ee7b30dff6ed8b0d83fa6b00503f78c738da0f1e45fffe251ffcb8c"
+  version "2.3.0"
+  sha256 arm:   "b0f47623c9a881445c2d2ed328bf88b71945a01a578b1ae598c2d0c62f9d4fed",
+         intel: "a1636dadd4627622ba3aca94e335a1196c8dcb2573df574031f016ba30a1f10a"
 
   url "https://github.com/adelbeke/donna/releases/download/v#{version}/Donna-#{version}#{"-arm64" if arch == "arm64"}.dmg"
   name "Donna"
